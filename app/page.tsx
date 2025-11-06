@@ -1,15 +1,35 @@
-import Script from "next/script";
+import Script from 'next/script';
 
 export default function Home() {
   return (
-    <div style={{ width: '100vw', height: '100vh', margin: 0, padding: 0, overflow: 'hidden' }}>
+    <div
+      style={{
+        width: '100vw',
+        height: '100vh',
+        margin: 0,
+        padding: 0,
+        overflow: 'hidden',
+      }}
+    >
       <div
-        data-us-project="HHG9v7xJsIreaBpY8QZO"
+        style={{
+          position: 'absolute',
+          bottom: 0,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '200px',
+          height: '100px',
+          backgroundColor: 'black',
+          zIndex: 999999999,
+        }}
+      ></div>
+      <div
+        data-us-project='HHG9v7xJsIreaBpY8QZO'
         style={{ width: '100vw', height: '100vh' }}
-      />
+      ></div>
       <Script
-        id="unicorn-studio"
-        strategy="afterInteractive"
+        id='unicorn-studio'
+        strategy='afterInteractive'
         dangerouslySetInnerHTML={{
           __html: `
             !function(){
@@ -23,7 +43,7 @@ export default function Home() {
                 (document.head || document.body).appendChild(i)
               }
             }();
-          `
+          `,
         }}
       />
     </div>
