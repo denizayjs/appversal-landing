@@ -9,6 +9,7 @@ export default function Home() {
         margin: 0,
         padding: 0,
         overflow: 'hidden',
+        position: 'relative',
       }}
     >
       <div
