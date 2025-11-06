@@ -1,6 +1,10 @@
 name = "appversal-landing"
 compatibility_date = "2025-11-06"
+compatibility_flags = ["nodejs_compat"]
+
+# OpenNext build output
+main = ".open-next/worker.js"
 
 # Configure assets directory for deployment
 [assets]
-directory = ".vercel/output/static"
+directory = ".open-next/assets"
