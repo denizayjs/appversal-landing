@@ -15,19 +15,26 @@ The project uses `@opennextjs/cloudflare` to transform Next.js builds for Cloudf
 
 ### Cloudflare Pages Settings
 
-In your Cloudflare Pages dashboard, ensure the following settings:
+**IMPORTANT:** Update your Cloudflare Pages build settings to prevent infinite build loops.
+
+In your Cloudflare Pages dashboard, update the following settings:
 
 **Build command:**
-```bash
-npm run build:cloudflare
-```
 
-**OR:**
 ```bash
 bun run build:cloudflare
 ```
 
+**OR:**
+
+```bash
+npm run build:cloudflare
+```
+
+**⚠️ Do NOT use `bun run build`** - This will cause an infinite recursion because OpenNext will detect and call the `build` script, which calls OpenNext again.
+
 **Deploy command:**
+
 ```bash
 npx wrangler deploy
 ```
@@ -48,10 +55,17 @@ This means the build command didn't run the OpenNext transformation. Ensure you'
 
 **Infinite Build Loop**
 
-If you see the build command repeating infinitely, ensure that:
-- The `build` script in `package.json` is set to `next build` (not `opennextjs-cloudflare build`)
-- Cloudflare Pages uses `build:cloudflare` as the build command
-- The `open-next.config.ts` has `buildCommand: "bunx next build"` configured
+If you see the build command repeating infinitely (like `bun x opennextjs-cloudflare build` calling itself), this means:
+
+1. **The `build` script in `package.json` must be `next build`** (NOT `opennextjs-cloudflare build`)
+2. **Cloudflare Pages must use `build:cloudflare` as the build command** (NOT `build`)
+3. The `build:cloudflare` script runs OpenNext, which will detect the `build` script and call `next build` directly, preventing recursion
+
+**Current correct setup:**
+
+- `package.json` → `"build": "next build"`
+- `package.json` → `"build:cloudflare": "bunx opennextjs-cloudflare build"`
+- Cloudflare Pages → Build command: `bun run build:cloudflare`
 
 **Build Cache Issues**
 

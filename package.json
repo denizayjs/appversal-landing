@@ -7,7 +7,6 @@
     "build": "next build",
     "build:cloudflare": "bunx opennextjs-cloudflare build",
     "build:next": "next build",
-    "build:internal": "next build",
     "pages:build": "bunx opennextjs-cloudflare build",
     "start": "next start",
     "lint": "eslint",

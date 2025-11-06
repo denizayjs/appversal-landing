@@ -1,7 +1,7 @@
-import { defineCloudflareConfig } from "@opennextjs/cloudflare";
+import { defineCloudflareConfig } from '@opennextjs/cloudflare';
 
 export default defineCloudflareConfig({
-  // Use bunx to call next build directly, bypassing package.json scripts
-  // This prevents OpenNext from detecting and calling the build script recursively
-  buildCommand: "bunx next build",
+  // OpenNext Cloudflare configuration
+  // Note: To prevent recursion, ensure 'build' script in package.json is 'next build'
+  // and use 'build:cloudflare' script for OpenNext builds
 });
