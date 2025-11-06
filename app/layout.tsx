@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// Temporarily using CSS variables for fonts due to build environment restrictions
+// Google Fonts (Geist and Geist Mono) will be loaded via CSS or at runtime
+const fontVariables = {
+  className: "font-sans",
+  style: {
+    "--font-geist-sans": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    "--font-geist-mono": "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
+  } as React.CSSProperties,
+};
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${fontVariables.className} antialiased`}
+        style={fontVariables.style}
       >
         {children}
       </body>
