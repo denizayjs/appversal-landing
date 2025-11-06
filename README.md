@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+bun install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -29,7 +37,29 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Cloudflare Pages
+
+This project is configured to deploy to Cloudflare Pages using [@opennextjs/cloudflare](https://opennext.js.org/cloudflare).
+
+To deploy:
+
+```bash
+npm run deploy
+# or
+bun run deploy
+```
+
+This will:
+1. Build the Next.js app for Cloudflare Pages
+2. Deploy to Cloudflare using Wrangler
+
+Make sure you have:
+- Installed dependencies (`npm install` or `bun install`)
+- Configured Wrangler authentication
+
 ## Deploy on Vercel
+
+Alternatively, you can deploy to Vercel Platform:
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
