@@ -1,3 +1,6 @@
 name = "appversal-landing"
 compatibility_date = "2025-11-06"
-pages_build_output_dir = ".vercel/output/static"
+
+# Configure assets directory for deployment
+[assets]
+directory = ".vercel/output/static"
