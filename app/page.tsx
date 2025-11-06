@@ -14,11 +14,11 @@ export default function Home() {
       <div
         style={{
           position: 'absolute',
-          bottom: 0,
+          bottom: 25,
           left: '50%',
           transform: 'translateX(-50%)',
           width: '200px',
-          height: '100px',
+          height: '50px',
           backgroundColor: 'black',
           zIndex: 999999999,
         }}
