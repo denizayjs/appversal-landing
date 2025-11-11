@@ -1,36 +1,36 @@
-import Script from 'next/script';
+import Script from "next/script";
 
 export default function Home() {
   return (
     <div
       style={{
-        width: '100vw',
-        height: '100vh',
+        width: "100vw",
+        height: "100vh",
         margin: 0,
         padding: 0,
-        overflow: 'hidden',
-        position: 'relative',
+        overflow: "hidden",
+        position: "relative",
       }}
     >
       <div
         style={{
-          position: 'absolute',
+          position: "absolute",
           bottom: 25,
-          left: '50%',
-          transform: 'translateX(-50%)',
-          width: '200px',
-          height: '50px',
-          backgroundColor: 'black',
+          left: "50%",
+          transform: "translateX(-50%)",
+          width: 200,
+          height: 50,
+          backgroundColor: "black",
           zIndex: 999999999,
         }}
       ></div>
       <div
-        data-us-project='HHG9v7xJsIreaBpY8QZO'
-        style={{ width: '100vw', height: '100vh' }}
+        data-us-project="HHG9v7xJsIreaBpY8QZO"
+        style={{ width: "100vw", height: "100vh" }}
       ></div>
       <Script
-        id='unicorn-studio'
-        strategy='afterInteractive'
+        id="unicorn-studio"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             !function(){
@@ -50,3 +50,4 @@ export default function Home() {
     </div>
   );
 }
+

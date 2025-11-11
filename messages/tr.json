@@ -1,0 +1,154 @@
+{
+  "sardesAi": {
+    "welcomeHeading": "{brand}'ye hoş geldiniz"
+  },
+  "support": {
+    "title": "{brand} - Destek",
+    "thankYou": "{brand} kullandığınız için teşekkürler.",
+    "contactIntro": "Herhangi bir soru, geri bildirim veya destek talebiniz için lütfen aşağıdaki e-posta adresinden bize ulaşın:"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: {date}",
+    "intro": "{brand} (“biz”, “bize” veya “bizim”) mahremiyetinizi korumaya kararlıdır. Bu Gizlilik Politikası, kişisel bilgilerinizin {brand} tarafından nasıl toplandığını, kullanıldığını ve açıklandığını açıklar.",
+    "sections": {
+      "informationWeCollect": {
+        "title": "Topladığımız Bilgiler",
+        "personalInfo": {
+          "title": "Kişisel Bilgiler",
+          "body": "Onboarding sürecinde adınızı, işlem deneyiminizi ve piyasa tercihlerinizi isteyebiliriz. Bu bilgiler yalnızca uygulama içinde kullanıcı deneyiminizi kişiselleştirmek için kullanılır; başka herhangi bir amaçla toplanmaz veya saklanmaz."
+        },
+        "chartImages": {
+          "title": "Grafik Görselleri",
+          "body": "{brand}, işlem içgörüleri üretmek için hisse senedi veya kripto para grafiklerinin görsellerini yüklemenize olanak tanır. Bu görseller analiz sağlamak için geçici olarak işlenir ve saklanmaz veya paylaşılmaz."
+        },
+        "usageData": {
+          "title": "Kullanım Verileri",
+          "body": "Uygulamayı kullanımınıza dair oturumların sıklığı ve süresi, kullandığınız özellikler ve ilgili analitik veriler gibi bilgileri toplayabiliriz. Bu bilgiler uygulamayı geliştirmek ve kullanıcı deneyiminizi iyileştirmek için kullanılır."
+        }
+      },
+      "yourChoices": {
+        "title": "Seçenekleriniz",
+        "personalInfo": {
+          "title": "Kişisel Bilgiler",
+          "body": "Onboarding sırasında işlem tercihlerinizi paylaşmak isteğe bağlıdır. Ancak bu adımı atlamanız, içgörülerin kişiselleştirilmesini sınırlayabilir."
+        },
+        "chartImages": {
+          "title": "Grafik Görselleri",
+          "body": "Yüklediğiniz görseller üzerinde tam kontrole sahipsiniz. Bu görseller geçici olarak işlenir ve sunucularımızda saklanmaz."
+        }
+      },
+      "age": {
+        "title": "Yaş",
+        "body": "{brand}, 13 yaşından küçükler için tasarlanmamıştır. Uygulamayı indirip kullanarak bu yaş gerekliliğini karşıladığınızı teyit edersiniz. 18 yaşın altındaysanız, ülkenizin yasalarının gerektirdiği şekilde ebeveyn izniyle {brand} kullanabilirsiniz. {brand}, uygulamanın reşit olmayanlar tarafından kullanımından sorumlu değildir."
+      },
+      "changes": {
+        "title": "Bu Gizlilik Politikasındaki Değişiklikler",
+        "body": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklik yaparsak bu politikanın üst kısmındaki tarihi güncelleyerek sizi bilgilendiririz."
+      },
+      "contact": {
+        "title": "İletişime Geçin",
+        "body": "Bu Gizlilik Politikası hakkında sorularınız varsa bize <email>{address}</email> adresinden ulaşın."
+      }
+    }
+  },
+  "terms": {
+    "title": "Şartlar ve Koşullar",
+    "intro": "{brand}'a hoş geldiniz! Bu Şartlar ve Koşullar (“Şartlar”), mobil uygulamamızı (“Uygulama”) kullanımınızı düzenler. Uygulamayı kullanarak bu Şartlara bağlı kalmayı kabul edersiniz. Şartları kabul etmiyorsanız lütfen Uygulamayı kullanmayın.",
+    "sections": {
+      "acceptance": {
+        "title": "1. Şartların Kabulü",
+        "body": "Uygulamaya erişip kullanarak bu Şartlara bağlı kalmayı kabul edersiniz. Şartları zaman zaman güncelleyebiliriz; bu nedenle lütfen düzenli olarak gözden geçirin."
+      },
+      "use": {
+        "title": "2. Uygulamanın Kullanımı",
+        "eligibility": {
+          "title": "Uygunluk",
+          "body": "Bölüm 6'da belirtilen yaş ve hukuki ehliyet gerekliliklerini karşılamanız gerekir."
+        },
+        "personalUse": {
+          "title": "Kişisel Kullanım",
+          "body": "Uygulama yalnızca kişisel ve ticari olmayan kullanımınız içindir."
+        },
+        "userConduct": {
+          "title": "Kullanıcı Davranışı",
+          "intro": "Uygulamayı hukuka aykırı, zararlı veya sakıncalı herhangi bir şekilde kullanmamayı; özellikle aşağıdakileri yapmamayı kabul edersiniz:",
+          "items": [
+            "Geçerli yasa veya düzenlemeleri ihlal etmek.",
+            "Üçüncü şahısların haklarını ihlal etmek.",
+            "Virüs veya zararlı herhangi bir bilgisayar kodu yüklemek.",
+            "Uygulamaya veya ilgili sistem ve ağlara yetkisiz erişim sağlamaya çalışmak."
+          ]
+        }
+      },
+      "userContent": {
+        "title": "3. Kullanıcı İçeriği",
+        "chartImages": {
+          "title": "Grafik Görselleri",
+          "body": "Uygulama, içgörü üretmek için hisse senedi veya kripto para grafik görselleri yüklemenize izin verir. Bu görseller geçici olarak işlenir, herkese açık değildir ve yüklediğiniz görseller üzerindeki tüm haklar sizde kalır."
+        },
+        "responsibility": {
+          "title": "Sorumluluk",
+          "body": "Uygulamaya yüklediğiniz içerikten yalnızca siz sorumlusunuz. Yasalara aykırı, zararlı veya üçüncü şahısların haklarını ihlal eden içerik yüklememeyi kabul edersiniz."
+        }
+      },
+      "intellectualProperty": {
+        "title": "4. Fikri Mülkiyet",
+        "ownership": {
+          "title": "Mülkiyet",
+          "body": "Uygulama ve tüm fikri mülkiyet hakları dahil olmak üzere tüm hak, unvan ve menfaat {brand}'a aittir. Uygulamayı kişisel ve ticari olmayan amaçlarla kullanmanız için size sınırlı, münhasır olmayan, devredilemez ve geri alınabilir bir lisans verilir."
+        },
+        "restrictions": {
+          "title": "Kısıtlamalar",
+          "intro": "Aşağıdaki faaliyetlerde bulunmamayı kabul edersiniz:",
+          "items": [
+            "Uygulama üzerinde değişiklik yapmak, kopyalamak veya türev çalışmalar oluşturmak.",
+            "Uygulamayı üçüncü şahıslara dağıtmak, devretmek, alt lisans vermek, kiralamak veya ödünç vermek.",
+            "Uygulamayı tersine mühendislik yapmak, derlemek veya parçalarına ayırmak.",
+            "Uygulamayı hukuka aykırı şekilde veya bu Şartları ihlal ederek kullanmak."
+          ]
+        }
+      },
+      "privacy": {
+        "title": "5. Gizlilik",
+        "body": "Uygulamayı kullanımınız Gizlilik Politikamız tarafından da düzenlenir. Uygulamayı kullanarak Gizlilik Politikasında açıklanan bilgi kullanımını kabul edersiniz."
+      },
+      "age": {
+        "title": "6. Yaş ve Hukuki Ehliyet",
+        "intro": "{brand} kullanmak için:",
+        "items": [
+          "En az 13 yaşında olmalısınız.",
+          "18 yaşından küçükseniz, ülkenizin yasalarının gerektirdiği şekilde ebeveyn izniyle {brand} kullanabilirsiniz."
+        ]
+      },
+      "noFinancialAdvice": {
+        "title": "7. Finansal Tavsiye Değildir",
+        "body1": "{brand} tarafından sunulan analizler yalnızca bilgilendirme amaçlıdır. Finansal, yatırım veya ticaret tavsiyesi niteliği taşımaz. Uygulama, yapay zekâ algoritmalarına dayalı tahminler, öneriler veya planlar üretebilir; ancak bunlar doğası gereği öngörü niteliğindedir. Her zaman kendi bağımsız araştırmanızı yapmalı, lisanslı profesyonellere danışmalı ve finansal kararlar almadan önce gereken özeni göstermelisiniz.",
+        "body2": "{brand} tarafından oluşturulan içerik, içgörü veya tahminlerin doğruluğu, isabeti veya güvenilirliği konusunda sorumluluk kabul etmeyiz. Analize dayanarak aldığınız tüm aksiyonlar tamamen sizin kararınızdır ve bu kararlarınızdan doğacak sonuçlardan sorumlu değiliz."
+      },
+      "disclaimer": {
+        "title": "8. Garantilerin Reddi",
+        "body": "Uygulama “olduğu gibi” ve “mevcut olduğu kadarıyla” sağlanır; açık veya zımni hiçbir garanti verilmez. Bunlara, sınırlı olmamak kaydıyla, satılabilirlik, belirli bir amaca uygunluk veya ihlal etmeme garantileri de dahildir. Uygulamanın kesintisiz veya hatasız olacağını, kusurların düzeltileceğini ya da virüs içermediğini garanti etmeyiz."
+      },
+      "liability": {
+        "title": "9. Sorumluluğun Sınırlandırılması",
+        "body": "Yürürlükteki kanunların izin verdiği azami ölçüde, {brand}, doğrudan veya dolaylı olarak meydana gelen kâr kaybı, gelir kaybı, veri kaybı, kullanım kaybı, itibar veya diğer maddi olmayan kayıplar dahil, dolaylı, arızi, özel, sonuçsal veya cezai zararlardan sorumlu değildir. Bu durumlar şunları kapsar:",
+        "items": [
+          "Uygulamayı kullanmanız veya kullanamamanız.",
+          "Sunucularımıza ve/veya depolanan kişisel bilgilere yetkisiz erişim veya kullanım.",
+          "Uygulamaya gelen veya giden iletimin kesilmesi veya durması.",
+          "Üçüncü şahıslar tarafından Uygulama aracılığıyla gönderilen virüsler, truva atları veya benzeri zararlı öğeler."
+        ]
+      },
+      "governingLaw": {
+        "title": "10. Geçerli Hukuk",
+        "body": "Bu Şartlar, kanunlar ihtilafı ilkelerine bakılmaksızın, ülkenizin/eyaletinizin hukukuna tabi olarak yorumlanır ve uygulanır."
+      },
+      "contact": {
+        "title": "11. İletişim",
+        "body": "Bu Şartlar hakkında sorularınız varsa bize <email>{address}</email> adresinden ulaşın."
+      }
+    }
+  }
+}
+

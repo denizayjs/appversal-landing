@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
+import type { CSSProperties, ReactNode } from 'react';
+import { defaultLocale } from '../i18n';
 import './globals.css';
 
-// Temporarily using CSS variables for fonts due to build environment restrictions
-// Google Fonts (Geist and Geist Mono) will be loaded via CSS or at runtime
 const fontVariables = {
   className: 'font-sans',
   style: {
@@ -10,7 +10,7 @@ const fontVariables = {
       "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     '--font-geist-mono':
       "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
-  } as React.CSSProperties,
+  } as CSSProperties,
 };
 
 export const metadata: Metadata = {
@@ -21,13 +21,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+type RootLayoutProps = Readonly<{ children: ReactNode }>;
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang='en'>
+    <html lang={defaultLocale} suppressHydrationWarning>
       <head>
         <link rel='icon' href='/appversal-logo-short.png' />
       </head>

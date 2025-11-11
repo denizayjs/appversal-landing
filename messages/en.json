@@ -1,0 +1,154 @@
+{
+  "sardesAi": {
+    "welcomeHeading": "Welcome to {brand}"
+  },
+  "support": {
+    "title": "{brand} - Support",
+    "thankYou": "Thank you for using {brand}.",
+    "contactIntro": "For any questions, feedback, or support requests, please contact us at the following email address:"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: {date}",
+    "intro": "{brand} (\"we,\" \"our,\" or \"us\") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by {brand}.",
+    "sections": {
+      "informationWeCollect": {
+        "title": "Information We Collect",
+        "personalInfo": {
+          "title": "Personal Information",
+          "body": "During the onboarding process, we may ask for your name, trading experience, and market preferences. This information is used solely within the app to personalize your user experience and is not collected or stored for any other purpose."
+        },
+        "chartImages": {
+          "title": "Chart Images",
+          "body": "{brand} allows you to upload images of stock or cryptocurrency charts to generate trading insights. These images are processed temporarily to provide analysis and are not stored or shared."
+        },
+        "usageData": {
+          "title": "Usage Data",
+          "body": "We may collect information about your use of the app, such as the frequency and duration of your sessions, the features you use, and related analytics data. This information is used to improve the app and enhance your user experience."
+        }
+      },
+      "yourChoices": {
+        "title": "Your Choices",
+        "personalInfo": {
+          "title": "Personal Information",
+          "body": "Providing your trading preferences during onboarding is optional. However, skipping this step may limit the personalization of insights."
+        },
+        "chartImages": {
+          "title": "Chart Images",
+          "body": "You retain full control over the images you upload. These are processed temporarily and are not stored on our servers."
+        }
+      },
+      "age": {
+        "title": "Age",
+        "body": "{brand} is not intended for anyone under 13. By downloading and using the app, you confirm that you meet this age requirement. If you are under 18, you may only use {brand} with parental consent as required by your country's laws. {brand} is not responsible for the use of the app by minors."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "body": "We may update this Privacy Policy from time to time. If we make changes, we will notify you by revising the date at the top of this policy."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "body": "If you have any questions about this Privacy Policy, please contact us at <email>{address}</email>."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "intro": "Welcome to {brand}! These Terms and Conditions (\"Terms\") govern your use of our mobile application (\"App\"). By using the App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "body": "By accessing and using the App, you accept and agree to be bound by these Terms. We may update these Terms from time to time, so please review them periodically."
+      },
+      "use": {
+        "title": "2. Use of the App",
+        "eligibility": {
+          "title": "Eligibility",
+          "body": "You must meet the age and legal capacity requirements outlined in Section 6."
+        },
+        "personalUse": {
+          "title": "Personal Use",
+          "body": "The App is intended for your personal, non-commercial use."
+        },
+        "userConduct": {
+          "title": "User Conduct",
+          "intro": "You agree not to use the App in any way that is unlawful, harmful, or otherwise objectionable, including but not limited to:",
+          "items": [
+            "Violating any applicable laws or regulations.",
+            "Infringing the rights of any third party.",
+            "Uploading viruses or any other harmful computer code.",
+            "Attempting to gain unauthorized access to the App or its related systems or networks."
+          ]
+        }
+      },
+      "userContent": {
+        "title": "3. User Content",
+        "chartImages": {
+          "title": "Chart Images",
+          "body": "The App allows you to upload images of stock or cryptocurrency charts to generate insights. These images are processed temporarily and are not available publicly. You retain all rights to the images you upload."
+        },
+        "responsibility": {
+          "title": "Responsibility",
+          "body": "You are solely responsible for the content you upload to the App. You agree not to upload any content that is illegal, harmful, or violates the rights of any third party."
+        }
+      },
+      "intellectualProperty": {
+        "title": "4. Intellectual Property",
+        "ownership": {
+          "title": "Ownership",
+          "body": "All rights, title, and interest in and to the App, including all intellectual property rights, are owned by {brand}. You are granted a limited, non-exclusive, non-transferable, revocable license to use the App for personal, non-commercial purposes."
+        },
+        "restrictions": {
+          "title": "Restrictions",
+          "intro": "You agree not to engage in any of the following activities:",
+          "items": [
+            "Modify, copy, or create derivative works based on the App.",
+            "Distribute, transfer, sublicense, lease, lend, or rent the App to any third party.",
+            "Reverse engineer, decompile, or disassemble the App.",
+            "Use the App in any unlawful manner or in a way that violates these Terms."
+          ]
+        }
+      },
+      "privacy": {
+        "title": "5. Privacy",
+        "body": "Your use of the App is also governed by our Privacy Policy. By using the App, you consent to the use of information as described in the Privacy Policy."
+      },
+      "age": {
+        "title": "6. Age and Legal Capacity",
+        "intro": "To use {brand}, you must:",
+        "items": [
+          "Be at least 13 years old.",
+          "If you are under the age of 18, you may only use {brand} with parental consent as required by your country's laws."
+        ]
+      },
+      "noFinancialAdvice": {
+        "title": "7. No Financial Advice",
+        "body1": "The analysis provided by {brand} is strictly for informational purposes. It does not constitute financial, investment, or trading advice. The App may produce predictions, suggestions, or game plans based on AI algorithms, but these are speculative in nature. You should always conduct your own independent research, consult with licensed professionals, and exercise due diligence before making any financial decisions.",
+        "body2": "We are not responsible for the correctness, accuracy, or reliability of any content, insights, or predictions generated by {brand}. All actions you take based on the analysis are made independently by you, and we assume no liability for your decisions."
+      },
+      "disclaimer": {
+        "title": "8. Disclaimer of Warranties",
+        "body": "The App is provided on an \"as is\" and \"as available\" basis, without warranties of any kind, either express or implied, including, without limitation, implied warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the App will be uninterrupted or error-free, that defects will be corrected, or that the App is free of viruses."
+      },
+      "liability": {
+        "title": "9. Limitation of Liability",
+        "body": "To the fullest extent permitted by applicable law, {brand} shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:",
+        "items": [
+          "Your use or inability to use the App.",
+          "Any unauthorized access to or use of our servers and/or any personal information stored therein.",
+          "Any interruption or cessation of transmission to or from the App.",
+          "Any bugs, viruses, trojan horses, or the like that may be transmitted to or through the App by any third party."
+        ]
+      },
+      "governingLaw": {
+        "title": "10. Governing Law",
+        "body": "These Terms shall be governed by and construed in accordance with the laws of your country/state, without regard to its conflict of law principles."
+      },
+      "contact": {
+        "title": "11. Contact Information",
+        "body": "If you have any questions about these Terms, please contact us at <email>{address}</email>."
+      }
+    }
+  }
+}
+
