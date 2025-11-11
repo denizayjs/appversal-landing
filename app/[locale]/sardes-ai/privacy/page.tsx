@@ -1,10 +1,16 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
 
 const brandName = "Sardes AI";
 const contactEmail = "denizayjs@gmail.com";
 const lastUpdated = "9.3.2025";
 
-export default async function SardesAIPrivacy() {
+export default async function SardesAIPrivacy({ params }: PageProps) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations("privacy");
 
   return (

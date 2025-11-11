@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-require-imports */
 
 /**
  * Build script wrapper for Cloudflare Pages
@@ -16,7 +17,6 @@ const packageJsonBackupPath = path.resolve(__dirname, '..', 'package.json.backup
 try {
   // Read original package.json
   const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-  const originalBuildScript = packageJson.scripts.build;
   
   // Create backup
   fs.writeFileSync(packageJsonBackupPath, JSON.stringify(packageJson, null, 2));
