@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 
 const brandName = "Sardes AI";
-const contactEmail = "denizayjs@gmail.com";
+const contactEmail = "info@appversal.co";
 
 export default async function SardesAITerms() {
   const t = await getTranslations("terms");

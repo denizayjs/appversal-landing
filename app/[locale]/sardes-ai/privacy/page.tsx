@@ -5,7 +5,7 @@ type PageProps = {
 };
 
 const brandName = "Sardes AI";
-const contactEmail = "denizayjs@gmail.com";
+const contactEmail = "info@appversal.co";
 const lastUpdated = "9.3.2025";
 
 export default async function SardesAIPrivacy({ params }: PageProps) {
