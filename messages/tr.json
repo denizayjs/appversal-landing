@@ -149,6 +149,167 @@
         "body": "Bu Şartlar hakkında sorularınız varsa bize <email>{address}</email> adresinden ulaşın."
       }
     }
+  },
+  "wortweg": {
+    "welcomeHeading": "{brand}'ye hoş geldiniz"
+  },
+  "wortwegSupport": {
+    "title": "{brand} - Destek",
+    "thankYou": "{brand} ile Almanca konuşma pratiği yaptığınız için teşekkürler.",
+    "contactIntro": "Herhangi bir soru, geri bildirim veya destek talebiniz için lütfen aşağıdaki e-posta adresinden bize ulaşın:"
+  },
+  "wortwegPrivacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: {date}",
+    "intro": "{brand} (“biz”, “bize” veya “bizim”) mahremiyetinizi korumaya kararlıdır. Bu Gizlilik Politikası, kişisel bilgilerinizin {brand} tarafından nasıl toplandığını, kullanıldığını ve açıklandığını açıklar.",
+    "sections": {
+      "informationWeCollect": {
+        "title": "Topladığımız Bilgiler",
+        "personalInfo": {
+          "title": "Kişisel Bilgiler",
+          "body": "Onboarding sürecinde adınızı, ana dilinizi ve Almanca yeterlilik seviyenizi isteyebiliriz. Bu bilgiler yalnızca uygulama içinde öğrenme deneyiminizi kişiselleştirmek için kullanılır; başka herhangi bir amaçla toplanmaz veya saklanmaz."
+        },
+        "voiceRecordings": {
+          "title": "Ses Kayıtları",
+          "body": "{brand}, Almanca konuşma pratiği yapmanız için cihazınızın mikrofonunu kullanır. Ses kayıtlarınız telaffuz geri bildirimi ve transkripsiyon oluşturmak amacıyla işlenir ve reklam amacıyla üçüncü taraflarla paylaşılmaz."
+        },
+        "usageData": {
+          "title": "Kullanım Verileri",
+          "body": "Uygulamayı kullanımınıza dair oturumların sıklığı ve süresi, tamamlanan dersler ve ilgili analitik veriler gibi bilgileri toplayabiliriz. Bu bilgiler uygulamayı geliştirmek ve öğrenme deneyiminizi iyileştirmek için kullanılır."
+        }
+      },
+      "yourChoices": {
+        "title": "Seçenekleriniz",
+        "personalInfo": {
+          "title": "Kişisel Bilgiler",
+          "body": "Onboarding sırasında öğrenme tercihlerinizi paylaşmak isteğe bağlıdır. Ancak bu adımı atlamanız, derslerin kişiselleştirilmesini sınırlayabilir."
+        },
+        "microphoneAccess": {
+          "title": "Mikrofon Erişimi",
+          "body": "Mikrofon erişimini istediğiniz zaman cihaz ayarlarınızdan verebilir veya geri alabilirsiniz. Erişimi geri almanız, uygulamanın konuşma pratiği özelliklerini kullanma yeteneğinizi sınırlayacaktır."
+        }
+      },
+      "age": {
+        "title": "Yaş",
+        "body": "{brand}, 13 yaşından küçükler için tasarlanmamıştır. Uygulamayı indirip kullanarak bu yaş gerekliliğini karşıladığınızı teyit edersiniz. 18 yaşın altındaysanız, ülkenizin yasalarının gerektirdiği şekilde ebeveyn izniyle {brand} kullanabilirsiniz. {brand}, uygulamanın reşit olmayanlar tarafından kullanımından sorumlu değildir."
+      },
+      "changes": {
+        "title": "Bu Gizlilik Politikasındaki Değişiklikler",
+        "body": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklik yaparsak bu politikanın üst kısmındaki tarihi güncelleyerek sizi bilgilendiririz."
+      },
+      "contact": {
+        "title": "İletişime Geçin",
+        "body": "Bu Gizlilik Politikası hakkında sorularınız varsa bize <email>{address}</email> adresinden ulaşın."
+      }
+    }
+  },
+  "wortwegTerms": {
+    "title": "Şartlar ve Koşullar",
+    "intro": "{brand}'a hoş geldiniz! Bu Şartlar ve Koşullar (“Şartlar”), mobil uygulamamızı (“Uygulama”) kullanımınızı düzenler. Uygulamayı kullanarak bu Şartlara bağlı kalmayı kabul edersiniz. Şartları kabul etmiyorsanız lütfen Uygulamayı kullanmayın.",
+    "sections": {
+      "acceptance": {
+        "title": "1. Şartların Kabulü",
+        "body": "Uygulamaya erişip kullanarak bu Şartlara bağlı kalmayı kabul edersiniz. Şartları zaman zaman güncelleyebiliriz; bu nedenle lütfen düzenli olarak gözden geçirin."
+      },
+      "use": {
+        "title": "2. Uygulamanın Kullanımı",
+        "eligibility": {
+          "title": "Uygunluk",
+          "body": "Bölüm 6'da belirtilen yaş ve hukuki ehliyet gerekliliklerini karşılamanız gerekir."
+        },
+        "personalUse": {
+          "title": "Kişisel Kullanım",
+          "body": "Uygulama yalnızca kişisel ve ticari olmayan kullanımınız içindir."
+        },
+        "userConduct": {
+          "title": "Kullanıcı Davranışı",
+          "intro": "Uygulamayı hukuka aykırı, zararlı veya sakıncalı herhangi bir şekilde kullanmamayı; özellikle aşağıdakileri yapmamayı kabul edersiniz:",
+          "items": [
+            "Geçerli yasa veya düzenlemeleri ihlal etmek.",
+            "Üçüncü şahısların haklarını ihlal etmek.",
+            "Virüs veya zararlı herhangi bir bilgisayar kodu yüklemek.",
+            "Uygulamaya veya ilgili sistem ve ağlara yetkisiz erişim sağlamaya çalışmak."
+          ]
+        }
+      },
+      "userContent": {
+        "title": "3. Kullanıcı İçeriği",
+        "voiceRecordings": {
+          "title": "Ses Kayıtları",
+          "body": "Uygulama, Almanca konuşma pratiği yapmanız ve yapay zeka tarafından oluşturulan geri bildirim almanız için sesinizi kaydetmenize olanak tanır. Bu kayıtlar geri bildirim sağlamak için işlenir ve herkese açık hale getirilmez. Sağladığınız kayıtlar üzerindeki tüm haklar sizde kalır."
+        },
+        "responsibility": {
+          "title": "Sorumluluk",
+          "body": "Uygulamaya gönderdiğiniz içerikten yalnızca siz sorumlusunuz. Yasalara aykırı, zararlı veya üçüncü şahısların haklarını ihlal eden içerik göndermemeyi kabul edersiniz."
+        }
+      },
+      "intellectualProperty": {
+        "title": "4. Fikri Mülkiyet",
+        "ownership": {
+          "title": "Mülkiyet",
+          "body": "Uygulama ve tüm fikri mülkiyet hakları dahil olmak üzere tüm hak, unvan ve menfaat {brand}'a aittir. Uygulamayı kişisel ve ticari olmayan amaçlarla kullanmanız için size sınırlı, münhasır olmayan, devredilemez ve geri alınabilir bir lisans verilir."
+        },
+        "restrictions": {
+          "title": "Kısıtlamalar",
+          "intro": "Aşağıdaki faaliyetlerde bulunmamayı kabul edersiniz:",
+          "items": [
+            "Uygulama üzerinde değişiklik yapmak, kopyalamak veya türev çalışmalar oluşturmak.",
+            "Uygulamayı üçüncü şahıslara dağıtmak, devretmek, alt lisans vermek, kiralamak veya ödünç vermek.",
+            "Uygulamayı tersine mühendislik yapmak, derlemek veya parçalarına ayırmak.",
+            "Uygulamayı hukuka aykırı şekilde veya bu Şartları ihlal ederek kullanmak."
+          ]
+        }
+      },
+      "privacy": {
+        "title": "5. Gizlilik",
+        "body": "Uygulamayı kullanımınız Gizlilik Politikamız tarafından da düzenlenir. Uygulamayı kullanarak Gizlilik Politikasında açıklanan bilgi kullanımını kabul edersiniz."
+      },
+      "age": {
+        "title": "6. Yaş ve Hukuki Ehliyet",
+        "intro": "{brand} kullanmak için:",
+        "items": [
+          "En az 13 yaşında olmalısınız.",
+          "18 yaşından küçükseniz, ülkenizin yasalarının gerektirdiği şekilde ebeveyn izniyle {brand} kullanabilirsiniz."
+        ]
+      },
+      "subscriptions": {
+        "title": "7. Abonelikler ve Ödemeler",
+        "intro": "{brand}, ek dersler ve özellikler sunan otomatik yenilenen abonelikler sunabilir. Bir abonelik satın alarak aşağıdakileri kabul ve teyit edersiniz:",
+        "items": [
+          "Ödeme, satın alma onayı sırasında uygulama mağazası hesabınızdan tahsil edilir.",
+          "Abonelikler, mevcut dönemin bitiminden en az 24 saat önce otomatik yenileme kapatılmadığı sürece otomatik olarak yenilenir.",
+          "Aboneliğinizi istediğiniz zaman uygulama mağazası hesap ayarlarınızdan yönetebilir veya iptal edebilirsiniz.",
+          "Yürürlükteki yasaların gerektirdiği durumlar dışında, bir abonelik döneminin kullanılmayan kısmı için geri ödeme yapılmaz."
+        ]
+      },
+      "aiDisclaimer": {
+        "title": "8. Yapay Zeka Tarafından Oluşturulan Geri Bildirim",
+        "body1": "{brand} tarafından sağlanan telaffuz geri bildirimleri, düzeltmeler ve öneriler yapay zeka kullanılarak oluşturulur ve yalnızca pratik amaçlıdır. Bunlar, Almanca dil yeterliliğinizin sertifikalı bir değerlendirmesi niteliğinde değildir ve resmi dil sertifikası sınavlarının yerine geçecek şekilde güvenilmemelidir.",
+        "body2": "{brand} tarafından oluşturulan geri bildirimlerin doğruluğu, isabeti veya güvenilirliği konusunda sorumluluk kabul etmeyiz. Bu geri bildirime dayanarak aldığınız dil öğrenme kararları tamamen size aittir ve Uygulamayı kullanımınızın sonuçlarından sorumlu değiliz."
+      },
+      "disclaimer": {
+        "title": "9. Garantilerin Reddi",
+        "body": "Uygulama “olduğu gibi” ve “mevcut olduğu kadarıyla” sağlanır; açık veya zımni hiçbir garanti verilmez. Bunlara, sınırlı olmamak kaydıyla, satılabilirlik, belirli bir amaca uygunluk veya ihlal etmeme garantileri de dahildir. Uygulamanın kesintisiz veya hatasız olacağını, kusurların düzeltileceğini ya da virüs içermediğini garanti etmeyiz."
+      },
+      "liability": {
+        "title": "10. Sorumluluğun Sınırlandırılması",
+        "body": "Yürürlükteki kanunların izin verdiği azami ölçüde, {brand}, doğrudan veya dolaylı olarak meydana gelen kâr kaybı, gelir kaybı, veri kaybı, kullanım kaybı, itibar veya diğer maddi olmayan kayıplar dahil, dolaylı, arızi, özel, sonuçsal veya cezai zararlardan sorumlu değildir. Bu durumlar şunları kapsar:",
+        "items": [
+          "Uygulamayı kullanmanız veya kullanamamanız.",
+          "Sunucularımıza ve/veya depolanan kişisel bilgilere yetkisiz erişim veya kullanım.",
+          "Uygulamaya gelen veya giden iletimin kesilmesi veya durması.",
+          "Üçüncü şahıslar tarafından Uygulama aracılığıyla gönderilen virüsler, truva atları veya benzeri zararlı öğeler."
+        ]
+      },
+      "governingLaw": {
+        "title": "11. Geçerli Hukuk",
+        "body": "Bu Şartlar, kanunlar ihtilafı ilkelerine bakılmaksızın, ülkenizin/eyaletinizin hukukuna tabi olarak yorumlanır ve uygulanır."
+      },
+      "contact": {
+        "title": "12. İletişim",
+        "body": "Bu Şartlar hakkında sorularınız varsa bize <email>{address}</email> adresinden ulaşın."
+      }
+    }
   }
 }
 
