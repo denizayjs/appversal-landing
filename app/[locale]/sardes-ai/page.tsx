@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import Gallery from "./Gallery";
 import QrCode from "./QrCode";
 import "./landing.css";
 
@@ -225,13 +226,11 @@ export default async function SardesAI({ params }: Props) {
           <h2 className="sa-h2">{t("gallery.title")}</h2>
           <p className="sa-lead">{t("gallery.sub")}</p>
         </div>
-        <div className="sa-gal">
-          {shots.map((n) => (
-            <figure key={n}>
-              <img src={`/sardes-ai/${locale}/${n}.jpg`} alt="" width={620} height={1342} loading="lazy" />
-            </figure>
-          ))}
-        </div>
+        <Gallery
+          shots={shots.map((n) => `/sardes-ai/${locale}/${n}.jpg`)}
+          prev={t("gallery.prev")}
+          next={t("gallery.next")}
+        />
       </section>
 
       <section className="sa-sec" style={{ paddingTop: 0 }}>

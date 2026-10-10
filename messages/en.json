@@ -91,7 +91,9 @@
       },
       "gallery": {
         "title": "See it in action",
-        "sub": "Real screens from the app."
+        "sub": "Real screens from the app.",
+        "prev": "Previous screen",
+        "next": "Next screen"
       },
       "trust": {
         "title": "Built to inform, not to hype",

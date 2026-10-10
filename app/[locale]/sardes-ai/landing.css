@@ -148,3 +148,11 @@
   .sa-phone { width: 380px; }
 }
 @media (hover: hover) and (min-width: 960px) { .sa-qrbox { display: flex; } }
+
+.sa-gal-wrap { position: relative; }
+.sa-gal { overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; }
+.sa-arrow { display: none; position: absolute; top: 50%; translate: 0 -50%; z-index: 2; width: 48px; height: 48px; border-radius: 50%; border: 1px solid #3f3f46; background: #000000b3; backdrop-filter: blur(8px); color: #fff; font-size: 28px; line-height: 1; cursor: pointer; transition: background .2s, transform .2s; }
+.sa-arrow:hover { background: var(--indigo); transform: scale(1.06); }
+.sa-arrow.l { left: max(12px, calc((100vw - 1120px) / 2 - 24px)); }
+.sa-arrow.r { right: max(12px, calc((100vw - 1120px) / 2 - 24px)); }
+@media (hover: hover) and (pointer: fine) { .sa-arrow { display: block; } }

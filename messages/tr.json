@@ -91,7 +91,9 @@
       },
       "gallery": {
         "title": "Uygulamayı yakından gör",
-        "sub": "Uygulamadan gerçek ekranlar."
+        "sub": "Uygulamadan gerçek ekranlar.",
+        "prev": "Önceki ekran",
+        "next": "Sonraki ekran"
       },
       "trust": {
         "title": "Bilgilendirmek için tasarlandı, abartmak için değil",
