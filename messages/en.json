@@ -114,6 +114,14 @@
       },
       "footer": {
         "rights": "© {year} Appversal. All rights reserved."
+      },
+      "inApp": {
+        "title": "Open in Safari to download",
+        "hint": "This in-app browser can't open the App Store. Tap ⋯ in the top right, then choose “Open in browser” / “Open in Safari”.",
+        "open": "Open in Safari",
+        "copy": "Copy link",
+        "copied": "Copied ✓",
+        "close": "Close"
       }
     }
   },

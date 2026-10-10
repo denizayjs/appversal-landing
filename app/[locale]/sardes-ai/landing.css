@@ -156,3 +156,13 @@
 .sa-arrow.l { left: max(12px, calc((100vw - 1120px) / 2 - 24px)); }
 .sa-arrow.r { right: max(12px, calc((100vw - 1120px) / 2 - 24px)); }
 @media (hover: hover) and (pointer: fine) { .sa-arrow { display: block; } }
+
+.sa-inapp { position: sticky; top: 0; z-index: 60; background: #6366f1; color: #fff; padding: calc(10px + env(safe-area-inset-top)) 16px 12px; }
+.sa-inapp-in { display: grid; gap: 10px; max-width: 1120px; margin: 0 auto; }
+.sa-inapp b { font-size: 16px; }
+.sa-inapp p { margin: 4px 0 0; font-size: 13.5px; line-height: 1.45; opacity: .95; }
+.sa-inapp-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.sa-inapp-actions a, .sa-inapp-actions button { font: inherit; font-size: 14px; font-weight: 600; padding: 9px 14px; border-radius: 999px; border: 0; cursor: pointer; background: #fff; color: #312e81; }
+.sa .sa-inapp-actions a { color: #312e81; }
+.sa-inapp-actions button:last-child { margin-left: auto; background: #ffffff33; color: #fff; padding: 9px 12px; }
+.sa-inapp-actions button:nth-child(2) { background: #00000040; color: #fff; }

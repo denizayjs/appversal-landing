@@ -114,6 +114,14 @@
       },
       "footer": {
         "rights": "© {year} Appversal. Tüm hakları saklıdır."
+      },
+      "inApp": {
+        "title": "İndirmek için Safari'de aç",
+        "hint": "Bu uygulama içi tarayıcı App Store'u açamıyor. Sağ üstteki ⋯ simgesine dokun, ardından “Tarayıcıda aç” / “Safari'de aç”ı seç.",
+        "open": "Safari'de aç",
+        "copy": "Linki kopyala",
+        "copied": "Kopyalandı ✓",
+        "close": "Kapat"
       }
     }
   },

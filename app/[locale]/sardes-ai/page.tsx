@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Gallery from "./Gallery";
+import InAppBanner from "./InAppBanner";
 import QrCode from "./QrCode";
 import "./landing.css";
 
@@ -80,6 +81,14 @@ export default async function SardesAI({ params }: Props) {
 
   return (
     <main className="sa">
+      <InAppBanner
+        title={t("inApp.title")}
+        hint={t("inApp.hint")}
+        open={t("inApp.open")}
+        copy={t("inApp.copy")}
+        copied={t("inApp.copied")}
+        close={t("inApp.close")}
+      />
       <header className="sa-nav">
         <div className="sa-wrap sa-nav-in">
           <a className="sa-brand" href={base}>
