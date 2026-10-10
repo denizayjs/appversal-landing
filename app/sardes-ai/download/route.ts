@@ -86,7 +86,16 @@ li::before{content:counter(s);flex:none;width:26px;height:26px;border-radius:50%
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done,fallback);}else{fallback();}
     function fallback(){var t=document.createElement('textarea');t.value=url;document.body.appendChild(t);t.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(t);}
   });
-  setTimeout(function(){location.href=${JSON.stringify(APP_STORE_NATIVE_URL)};},400);
+  // Escape chain: Safari -> Chrome -> App Store scheme. The banner stays as the manual fallback.
+  var left=false,timers=[];
+  function stop(){left=true;timers.forEach(clearTimeout);}
+  document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')stop();});
+  window.addEventListener('pagehide',stop);
+  timers.push(
+    setTimeout(function(){location.href='x-safari-'+url;},300),
+    setTimeout(function(){location.href=url.replace(/^https?:\\/\\//,'googlechromes://');},1500),
+    setTimeout(function(){location.href=${JSON.stringify(APP_STORE_NATIVE_URL)};},2800)
+  );
 })();
 </script>
 </body></html>`;

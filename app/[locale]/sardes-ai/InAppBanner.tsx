@@ -26,12 +26,39 @@ export default function InAppBanner(p: Props) {
 
   useEffect(() => {
     if (!isIosInAppBrowser(navigator.userAgent)) return;
-    setShow(true);
-    // Best effort: some iOS webviews honour this scheme and jump straight to Safari.
-    const t = window.setTimeout(() => {
-      window.location.href = `x-safari-${window.location.href}`;
-    }, 600);
-    return () => window.clearTimeout(t);
+
+    // Escape chain: Safari scheme -> Chrome scheme -> show the manual banner.
+    // Leaving the page (visibility hidden / pagehide) means an attempt worked.
+    const url = window.location.href;
+    const timers: number[] = [];
+    let left = false;
+
+    const cancel = () => {
+      left = true;
+      timers.forEach((id) => window.clearTimeout(id));
+    };
+    const onHide = () => {
+      if (document.visibilityState === "hidden") cancel();
+      else if (left) setShow(true); // came back: automatic attempt did not stick
+    };
+    document.addEventListener("visibilitychange", onHide);
+    window.addEventListener("pagehide", cancel);
+
+    timers.push(
+      window.setTimeout(() => {
+        window.location.href = `x-safari-${url}`;
+      }, 300),
+      window.setTimeout(() => {
+        window.location.href = url.replace(/^https?:\/\//, "googlechromes://");
+      }, 1500),
+      window.setTimeout(() => setShow(true), 2800),
+    );
+
+    return () => {
+      cancel();
+      document.removeEventListener("visibilitychange", onHide);
+      window.removeEventListener("pagehide", cancel);
+    };
   }, []);
 
   if (!show) return null;
