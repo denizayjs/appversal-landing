@@ -1,6 +1,119 @@
 {
   "sardesAi": {
-    "welcomeHeading": "{brand}'ye hoş geldiniz"
+    "welcomeHeading": "{brand}'ye hoş geldiniz",
+    "landing": {
+      "meta": {
+        "title": "Sardes AI — Yapay zekâ ile hisse ve kripto grafik analizi",
+        "description": "Herhangi bir grafiğin fotoğrafını çek; skor, riskler, haberler ve net bir alım stratejisini saniyeler içinde yapay zekâ ile al. iOS ve Android'de ücretsiz başla."
+      },
+      "nav": {
+        "cta": "Uygulamayı indir",
+        "privacy": "Gizlilik",
+        "terms": "Koşullar",
+        "support": "Destek"
+      },
+      "hero": {
+        "eyebrow": "Hisse ve kripto için yapay zekâ grafik analizi",
+        "titleA": "Grafiği çek.",
+        "titleB": "Hamleni bil.",
+        "sub": "Kamerayı herhangi bir grafiğe tut. Sardes AI grafiği okur, canlı fiyat, haber ve analist görüşlerini toplar ve saniyeler içinde net bir plana dönüştürür.",
+        "appStore": "İndir:",
+        "appStoreName": "App Store",
+        "playStore": "Şuradan edinin:",
+        "playStoreName": "Google Play",
+        "note": "Ücretsiz başla · iPhone ve Android",
+        "chipScore": "Genel skor",
+        "chipStop": "Zarar durdur",
+        "chipSignal": "Sinyal",
+        "chipPositive": "Pozitif"
+      },
+      "ticker": {
+        "label": "Hisse, kripto ve BIST — tek taramada"
+      },
+      "steps": {
+        "title": "Ekran görüntüsünden stratejiye üç adımda",
+        "items": [
+          {
+            "n": "01",
+            "title": "Çek",
+            "body": "Herhangi bir grafiğin fotoğrafını çek — TradingView, aracı kurum uygulaması ya da monitör. Ekran görüntüsü de olur."
+          },
+          {
+            "n": "02",
+            "title": "Analiz et",
+            "body": "Sardes AI grafiği okur; ardından canlı fiyat, temel, teknik, haber ve duyarlılık verilerini kontrol eder."
+          },
+          {
+            "n": "03",
+            "title": "Harekete geç",
+            "body": "Giriş, zarar durdur, kâr al ve risk/ödül oranını yatırım tarzına göre al."
+          }
+        ]
+      },
+      "features": {
+        "title": "Tek bir skorun arkasındaki her şey",
+        "sub": "Sadece bir sinyal değil. Üzerine düşünebileceğin, okunaklı ve tam bir döküm.",
+        "score": {
+          "title": "Genel skor",
+          "fundamental": "Temel",
+          "technical": "Teknik",
+          "sentiment": "Duyarlılık"
+        },
+        "strategy": {
+          "title": "Alım stratejisi",
+          "entry": "Giriş noktası",
+          "stop": "Zarar durdur",
+          "profit": "Kâr al",
+          "rr": "Risk/Ödül",
+          "horizon": "Zaman ufku",
+          "horizonValue": "Orta vade"
+        },
+        "match": {
+          "title": "Tercihlerine uygun mu?",
+          "label": "Orta düzeyde uyumlu",
+          "body": "Risk toleransın ve yatırım hedeflerinle karşılaştırılır."
+        },
+        "risks": {
+          "title": "Riskler ve öne çıkanlar",
+          "risk": "Yüksek F/K, büyüme yavaşlarsa aşırı değerlemeye işaret edebilir.",
+          "insight": "Analist yükseltmeleri olumlu piyasa duyarlılığına işaret ediyor."
+        },
+        "news": {
+          "title": "Piyasa haberleri",
+          "item": "Analist yükseltmeleri sonrası hisse zirveyi yeniden test edebilir",
+          "tag": "Pozitif"
+        },
+        "indicators": {
+          "title": "Teknik göstergeler",
+          "bullish": "Yükseliş",
+          "neutral": "Nötr"
+        }
+      },
+      "gallery": {
+        "title": "Uygulamayı yakından gör",
+        "sub": "Uygulamadan gerçek ekranlar."
+      },
+      "trust": {
+        "title": "Bilgilendirmek için tasarlandı, abartmak için değil",
+        "body": "Sardes AI, yalnızca eğitim ve bilgilendirme amaçlı yapay zekâ analizi sunar. Yatırım tavsiyesi değildir ve geçmiş performans gelecekteki sonuçları garanti etmez. Ekranlarda örnek veriler gösterilmektedir. Yatırım yapmadan önce her zaman kendi araştırmanı yap.",
+        "points": [
+          "Denemek için hesap gerekmez",
+          "Grafiklerin gizli kalır",
+          "Yatırım tavsiyesi değildir"
+        ]
+      },
+      "qr": {
+        "title": "Bilgisayardan mı bakıyorsun? Telefonunla tara",
+        "body": "Kamerayı koda tut — cihazına uygun mağazayı açalım."
+      },
+      "final": {
+        "title": "Bir sonraki işlemin ikinci bir görüşü hak ediyor.",
+        "sub": "Sardes AI'ı indir, ilk grafiğini bir dakikadan kısa sürede tara."
+      },
+      "footer": {
+        "rights": "© {year} Appversal. Tüm hakları saklıdır."
+      }
+    }
   },
   "support": {
     "title": "{brand} - Destek",
@@ -312,4 +425,3 @@
     }
   }
 }
-

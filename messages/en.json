@@ -1,6 +1,119 @@
 {
   "sardesAi": {
-    "welcomeHeading": "Welcome to {brand}"
+    "welcomeHeading": "Welcome to {brand}",
+    "landing": {
+      "meta": {
+        "title": "Sardes AI — AI stock & crypto chart analysis",
+        "description": "Snap a photo of any trading chart and get an AI-powered analysis: score, risks, news and a clear buying strategy in seconds. Free on iOS and Android."
+      },
+      "nav": {
+        "cta": "Get the app",
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "support": "Support"
+      },
+      "hero": {
+        "eyebrow": "AI chart analysis for stocks & crypto",
+        "titleA": "Snap the chart.",
+        "titleB": "Know your next move.",
+        "sub": "Point your camera at any trading chart. Sardes AI reads it, pulls live prices, news and analyst views, and turns it into a clear plan in seconds.",
+        "appStore": "Download on the",
+        "appStoreName": "App Store",
+        "playStore": "Get it on",
+        "playStoreName": "Google Play",
+        "note": "Free to start · iPhone & Android",
+        "chipScore": "Overall score",
+        "chipStop": "Stop loss",
+        "chipSignal": "Signal",
+        "chipPositive": "Positive"
+      },
+      "ticker": {
+        "label": "Stocks, crypto and BIST — all in a single scan"
+      },
+      "steps": {
+        "title": "From screenshot to strategy in three taps",
+        "items": [
+          {
+            "n": "01",
+            "title": "Snap",
+            "body": "Photograph any chart — TradingView, your broker app, a monitor. A screenshot works too."
+          },
+          {
+            "n": "02",
+            "title": "Analyze",
+            "body": "Sardes AI reads the chart, then checks live prices, fundamentals, technicals, news and sentiment."
+          },
+          {
+            "n": "03",
+            "title": "Act",
+            "body": "Get entry, stop loss, take profit and risk/reward — matched to your investing style."
+          }
+        ]
+      },
+      "features": {
+        "title": "Everything behind one number",
+        "sub": "Not just a signal. A full, readable breakdown you can actually reason about.",
+        "score": {
+          "title": "Overall score",
+          "fundamental": "Fundamental",
+          "technical": "Technical",
+          "sentiment": "Sentiment"
+        },
+        "strategy": {
+          "title": "Buying strategy",
+          "entry": "Entry point",
+          "stop": "Stop loss",
+          "profit": "Take profit",
+          "rr": "Risk/Reward",
+          "horizon": "Time horizon",
+          "horizonValue": "Medium-term"
+        },
+        "match": {
+          "title": "Fits your preferences?",
+          "label": "Moderately compatible",
+          "body": "Matched against your risk tolerance and investment goals."
+        },
+        "risks": {
+          "title": "Risks & key insights",
+          "risk": "High P/E suggests potential overvaluation if growth falters.",
+          "insight": "Analyst upgrades signal positive market sentiment."
+        },
+        "news": {
+          "title": "Market news",
+          "item": "Stock eyes a retest of highs amid analyst upgrades",
+          "tag": "Positive"
+        },
+        "indicators": {
+          "title": "Technical indicators",
+          "bullish": "Bullish",
+          "neutral": "Neutral"
+        }
+      },
+      "gallery": {
+        "title": "See it in action",
+        "sub": "Real screens from the app."
+      },
+      "trust": {
+        "title": "Built to inform, not to hype",
+        "body": "Sardes AI provides AI-generated analysis for educational and informational purposes only. It is not financial advice and past performance does not guarantee future results. Screens show example data. Always do your own research before investing.",
+        "points": [
+          "No account needed to try it",
+          "Your charts stay private",
+          "Not financial advice"
+        ]
+      },
+      "qr": {
+        "title": "On desktop? Scan with your phone",
+        "body": "Point your camera at the code — we'll open the right store for your device."
+      },
+      "final": {
+        "title": "Your next trade deserves a second opinion.",
+        "sub": "Download Sardes AI and scan your first chart in under a minute."
+      },
+      "footer": {
+        "rights": "© {year} Appversal. All rights reserved."
+      }
+    }
   },
   "support": {
     "title": "{brand} - Support",
@@ -312,4 +425,3 @@
     }
   }
 }
-
