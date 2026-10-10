@@ -4,9 +4,6 @@ import Gallery from "./Gallery";
 import QrCode from "./QrCode";
 import "./landing.css";
 
-const APP_STORE_URL = "https://apps.apple.com/tr/app/id6754612517";
-const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.sardesai.app";
 const TICKERS = [
   "AAPL", "NVDA", "BTC", "TSLA", "ETH", "MSFT", "THYAO", "AMZN", "SOL",
   "GARAN", "GOOGL", "XRP", "ASELS", "META", "BNB", "FROTO", "NFLX", "KCHOL",
@@ -61,14 +58,17 @@ export default async function SardesAI({ params }: Props) {
 
   const StoreButtons = ({ id }: { id: string }) => (
     <div className="sa-cta">
-      <a className="sa-store" href={APP_STORE_URL} id={`${id}-ios`}>
+      {/* Route handler: shows an "open in Safari" page inside in-app browsers. */}
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+      <a className="sa-store" href="/sardes-ai/download?store=ios" id={`${id}-ios`}>
         <AppleIcon />
         <span>
           <small>{t("hero.appStore")}</small>
           <b>{t("hero.appStoreName")}</b>
         </span>
       </a>
-      <a className="sa-store dark" href={PLAY_STORE_URL} id={`${id}-android`}>
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+      <a className="sa-store dark" href="/sardes-ai/download?store=android" id={`${id}-android`}>
         <PlayIcon />
         <span>
           <small>{t("hero.playStore")}</small>

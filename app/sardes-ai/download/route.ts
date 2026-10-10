@@ -99,7 +99,13 @@ export function GET(request: NextRequest) {
     Vary: "User-Agent, Accept-Language",
   };
 
-  if (isIosInAppBrowser(ua)) {
+  // Landing buttons pass ?store=ios|android to force a store; no param = detect by device.
+  const store = request.nextUrl.searchParams.get("store");
+
+  const iosTarget = store === "ios" || (!store && /iPhone|iPad|iPod/i.test(ua));
+  const androidTarget = store === "android";
+
+  if ((iosTarget || !store) && isIosInAppBrowser(ua)) {
     const lang = /^tr/i.test(request.headers.get("accept-language") ?? "")
       ? "tr"
       : "en";
@@ -109,10 +115,12 @@ export function GET(request: NextRequest) {
   }
 
   let target: string | URL;
-  if (/iPhone|iPad|iPod/i.test(ua)) {
+  if (iosTarget) {
     target = APP_STORE_URL;
-  } else if (/Android/i.test(ua)) {
+  } else if (androidTarget || /Android/i.test(ua)) {
     target = PLAY_STORE_URL;
+  } else if (store === "ios") {
+    target = APP_STORE_URL;
   } else {
     target = new URL("/sardes-ai", request.url);
   }
